@@ -1,5 +1,5 @@
 '''
-Day 1: Report Repair
+DAY 1: Report Repair
 
 Find the two entries that sum to 2020; 
 What do you get if you multiply them together?
@@ -7,12 +7,6 @@ What do you get if you multiply them together?
 '''
 
 import itertools
-
-# load input file
-input_dir = "C:/Users/YangZh/Desktop/input.txt"
-my_file = open(input_dir, "r")
-input = my_file. readlines()
-input = [int(n) for n in input]
 
 
 # Naive approach
@@ -43,6 +37,13 @@ def two_sum_hashing(num_arr, pair_sum):
 
 if __name__ == "__main__":
     
+    # load input file
+    input_dir = "C:/Users/YangZh/Desktop/input.txt"
+    my_file = open(input_dir, "r")
+    input = my_file. readlines()
+    input = [int(n) for n in input]
+
+
     # PART I
     print("PART I")
     num_arr = input
